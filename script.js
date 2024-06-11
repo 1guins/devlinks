@@ -7,13 +7,18 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/assets/avatar-light.png")
   } else {
-    img.setAttribute("src", "./assets/assets/avatar.jpg")
+    img.setAttribute("src", "./assets/assets/avatar.png")
   }
 
-  if (html.classList.contains('light')) {
-    img.setAttribute('alt', 'Foto de Guilherme Nunes sorrindo, dentro do carro, de camiseta branca e óculos escuro')
+  if (html.classList.contains("light")) {
+    img.setAttribute(
+      "alt",
+      "Foto de Guilherme Nunes sorrindo, dentro do carro, de camiseta branca e óculos escuro"
+    )
   } else {
-    img.setAttribute('alt', "Foto de Guilherme Nunes sorrindo de camisa social de linho branca, barba e fundo claro"
+    img.setAttribute(
+      "alt",
+      "Foto de Guilherme Nunes sorrindo de camisa social de linho branca, barba e fundo claro"
     )
   }
 }
